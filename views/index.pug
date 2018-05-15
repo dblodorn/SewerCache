@@ -1,0 +1,12 @@
+html
+  head
+    meta(charset="utf-8")
+    meta(name="ROBOTS" content="INDEX,FOLLOW")
+    meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+    meta(meta name="description" content="today")
+    title= title
+    include includes/css
+    script.
+      window.env = '#{env}';
+  body
+    script(src="dist/app.js")

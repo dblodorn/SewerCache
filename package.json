@@ -1,0 +1,45 @@
+{
+  "name": "sewercache",
+  "version": "1.0.0",
+  "description": "Flat Json Caching Service",
+  "main": "server.js",
+  "scripts": {
+    "dev": "env $(cat .env/.dev.env) NODE_ENV=development nodemon server.js",
+    "debug": "env $(cat .env/.prod.env) NODE_ENV=debug nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dblodorn/SewerCache.git"
+  },
+  "keywords": [
+    "Json",
+    "Cache",
+    "Api"
+  ],
+  "author": "Dain Blodorn Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dblodorn/SewerCache/issues"
+  },
+  "homepage": "https://github.com/dblodorn/SewerCache#readme",
+  "dependencies": {
+    "hyperapp": "^1.0.0",
+    "hyperapp-debug": "^0.0.1-beta.10",
+    "picostyle": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "browserify-middleware": "^8.1.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.10",
+    "nodemon": "^1.17.4",
+    "pug": "^2.0.3"
+  }
+}
