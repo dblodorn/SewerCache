@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "sewercache",
+      "script": "npm",
+      "args": "run prod"
+    }
+  ]
+}

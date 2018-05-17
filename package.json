@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "env $(cat .env/.dev.env) NODE_ENV=development nodemon server.js",
+    "prod": "env $(cat .env/.production.env) NODE_ENV=production server.js",
     "debug": "env $(cat .env/.prod.env) NODE_ENV=debug nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
