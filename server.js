@@ -34,7 +34,7 @@ app.use(app.imgDir, express.static(__dirname + app.imgDir));
 app.get('/', (req, res) => {
   res.render('index', {
     env: process.env.NODE_ENV,
-    title: 'SEWER CACHE'
+    title: 'SEWER CACHE :: COMING SOON'
   })
 })
 
